@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        registration 
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- <table class="form">
+        <tr>
+            <td> -->
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div class="input-group border-0">
+                        <label>User Name</label><input class="input" type="text" placeholder="Username" id="username">
+                        <i class="fas fa-check-circle icon-success hidden"></i>
+                        <i class="fas fa-exclamation-circle icon-error hidden"></i>
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="input-group border-0">
+                        <label>Email</label><input class="input" type="email" placeholder="Email" id="email">
+                        <i class="fas fa-check-circle icon-success hidden"></i>
+                        <i class="fas fa-exclamation-circle icon-error hidden"></i>
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="input-group  border-0">
+                        <label>Contact Number</label><input class="input" type="tel" placeholder="Contact Number" id="number" >
+                        <i class="fas fa-check-circle icon-success hidden"></i>
+                        <i class="fas fa-exclamation-circle icon-error hidden"></i>
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="input-group  border-0">
+                        <label class="me-3">Gender</label>
+                        <input class="me-2" type="radio" id="gender" name="gender" value="male" checked>
+                        <label class="me-3" for="male">Male</label>
+                        <input class="me-2" type="radio" id="gender" name="gender" value="female">
+                        <label class="me-3" for="female">Female</label>
+                        <input class="me-2"type="radio" id="gender" name="gender" value="other">
+                        <label class="me-3" for="other">Other</label>
+                        <i class="fas fa-check-circle icon-success hidden"></i>
+                        <i class="fas fa-exclamation-circle icon-error hidden"></i>
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="input-group  border-0">
+                        <label>Password</label><input class="input" type="password" placeholder="Password" id="pass">
+                        <i class="fas fa-check-circle icon-success hidden"></i>
+                        <i class="fas fa-exclamation-circle icon-error hidden"></i>
+                        <small>Error Msg</small>
+                    </div>
+                    <div class="input-group  border-0">
+                        <label>Confirm Password</label><input class="input" type="password" placeholder="Confirm Password" id="cpass">
+                        <i class="fas fa-check-circle icon-success hidden"></i>
+                        <i class="fas fa-exclamation-circle icon-error hidden"></i>
+                        <small>Error Msg</small>
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" class="btn" value="Submit">
+                    </div>
+                </form>
+            <!-- </td>
+            </tr>
+            </table> -->
+            <table class="list" id="show">
+                    <thead>
+                        <tr>
+                            <th>User Name</th>
+                            <th>Email</th>
+                            <th>Contact Number</th>
+                            <th>Gender</th>
+                            <th>Password</th>
+                            <th>Confirm Passowrd</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            
+    <script src="validate.js"></script>
+</body>
+
+</html>

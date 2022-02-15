@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 232, 232);  
+}
+
+.header {
+	border: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+	box-shadow: 5px 5px 21px 9px #000000;
+}
+
+.title {
+	text-align: center;
+	margin-top: 50px;
+}
+form {
+	width: 500px;
+	margin: 3rem auto;
+	padding: 3rem;
+	border: 1px solid #ddd;
+	border-radius: .25rem;
+	background-color: white;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.input-group {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.input-group label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.input-group input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-group input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.input-group.success input {
+	border-color: #2ecc71;
+}
+
+.input-group.error input {
+	border-color: #e74c3c;
+}
+
+.input-group i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.input-group.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.input-group.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.input-group small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.input-group.error small {
+	visibility: visible;
+}
+.btn {
+	background-color: rgb(3, 3, 3);
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: .25rem;
+	color: white;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	
+}
+
+.btn:hover {
+   background-color: #333;
+  }
+table, tr, th {
+	/* border: 1px solid black; */
+	text-align: center;
+  }
+  
+table {
+	width: 600px;
+	margin: 3rem auto;
+	padding: 3rem;
+	border: 1px solid #ddd;
+	border-radius: .25rem;
+	background-color: white;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+  
+th {
+	height: 100px;
+}
+
+button{
+	background-color: rgb(3, 3, 3);
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: .25rem;
+	color: white;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #333;
+   }
